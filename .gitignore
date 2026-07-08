@@ -39,3 +39,6 @@ outputs/data/*.json
 !outputs/plots/.gitkeep
 !outputs/animations/.gitkeep
 !outputs/data/.gitkeep
+
+
+docs/pr.md
