@@ -48,26 +48,10 @@ mechatronic-python-simulation/
 │   └── part_b.pdf
 ├── outputs/
 │   ├── plots/          # Static figures (PNG, PDF)
-│   ├── animations/     # Rendered simulations via ffmpeg (MP4, GIF)
-│   └── data/           # Numerical logs and simulation trajectories (CSV, JSON)
+│   └── animations/     # Rendered simulations via ffmpeg (MP4, GIF)
 ├── src/
-│   ├── __init__.py
-│   ├── common/
-│   │   ├── __init__.py
-│   │   ├── solvers.py
-│   │   └── visualization.py
 │   ├── reaction_wheel/
-│   │   ├── __init__.py
-│   │   ├── dynamics.py
-│   │   ├── controllers.py
-│   │   └── main.py
 │   └── teleoperation/
-│       ├── __init__.py
-│       ├── dynamics.py
-│       ├── controllers.py
-│       └── main.py
-├── tests/
-│   └── __init__.py
 ├── README.md
 └── requirements.txt
 
