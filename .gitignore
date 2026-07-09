@@ -29,15 +29,9 @@ share/python-wheels/
 MANIFEST
 
 outputs/plots/*.png
-outputs/plots/*.pdf
-outputs/animations/*.mp4
-outputs/animations/*.gif
 outputs/data/*.csv
 outputs/data/*.json
 
-# Keep the directories active in Git using a negative lookahead or simple tracking
-!outputs/plots/.gitkeep
-!outputs/animations/.gitkeep
 !outputs/data/.gitkeep
 
 
